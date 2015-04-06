@@ -22,7 +22,7 @@ mysql -u root -proot -e "$SQLCMD"
 
 #Copy Nginx conf to Custom Sites Directory
 echo -e "Adding Nginx conf file to /etc/nginx/custom-sites/$site_name.conf"
-cp /srv/config/bedrock-config/files/vvv-bedrock.conf /etc/nginx/custom-sites/$site_name.conf
+cp /srv/config/custom/bedrock-config/files/vvv-bedrock.conf /etc/nginx/custom-sites/$site_name.conf
 sed -i.bak "s/vvv-bedrock/$site_name/g" /etc/nginx/custom-sites/$site_name.conf
 
 #edit existing .env file to replace vars
