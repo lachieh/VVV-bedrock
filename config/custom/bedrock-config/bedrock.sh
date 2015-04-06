@@ -34,5 +34,8 @@ sed -i.bak "s/database_host/$db_host/g" /srv/www/vvv-bedrock/.env
 sed -i.bak "s/example.com/$site_name/g" /srv/www/vvv-bedrock/.env
 rm /srv/www/vvv-bedrock/.env.bak
 
+#add hosts to file
+echo "$site_name" >> /srv/www/vvv-hosts
+
 #restart Nginx
 service nginx restart
