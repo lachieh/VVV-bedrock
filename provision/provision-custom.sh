@@ -7,4 +7,4 @@
 
 # Install latest Bedrock
 echo -e "Attempting to install Bedrock via Composer. See http://github.com/roots/bedrock"
-/srv/config/bedrock-config/bedrock.sh
+/srv/config/custom/bedrock-config/bedrock.sh
