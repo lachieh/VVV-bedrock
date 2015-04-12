@@ -1,6 +1,6 @@
 # VVV-bedrock
 
-VVV-bedrock is an add on for [VVV](https://github.com/Varying-Vagrant-Vagrants/VVV) that will install [Bedrock](https://github.com/roots/bedrock).
+VVV Bedrock is an add on for [VVV](https://github.com/Varying-Vagrant-Vagrants/VVV) that will install [Bedrock](https://github.com/roots/bedrock).
 
 ### Instructions
 
